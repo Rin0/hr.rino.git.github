@@ -9,7 +9,7 @@ public class CreateFileExample {
 
 		try {
 			File file = new File("c:\\fer\\newjavafile.txt");
-
+ 
 			if (file.createNewFile()) {
 				System.out.println("File is created");
 			} else {
